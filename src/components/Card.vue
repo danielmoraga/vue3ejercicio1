@@ -4,6 +4,8 @@
 <img :src="url" :alt="nombre">
 <h2>{{nombre}}</h2>
 <a :href="url" target="_blank">Visitar</a>
+<a :href="url" target="_blank">Descargar</a>
+
 </div>
 </template>
 <script>
@@ -38,7 +40,7 @@ a{
   color: white;
   padding: 0.2rem 1rem;
   border-radius: 10px;
-  margin-top: 2rem;
+  margin: 1rem;
 }
 a:hover{
   background-color: gray;
